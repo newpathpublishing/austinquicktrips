@@ -589,3 +589,69 @@ a:hover { color: var(--accent); }
   line-height: 1.5;
 }
 .location-figure figcaption a { color: #8ec9e8; text-decoration: underline; }
+
+/* ===== Where to Stay (Booking.com partner blocks) ===== */
+.stay-block {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin: 28px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.stay-block h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #0e2f44;
+}
+.stay-block p {
+  margin: 0 0 14px 0;
+}
+.stay-block .stay-options {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 16px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px 16px;
+}
+.stay-block .stay-options li {
+  padding: 0;
+  margin: 0;
+}
+.stay-block .stay-options a {
+  display: block;
+  padding: 10px 14px;
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #0e2f44;
+  font-weight: 500;
+  transition: all 0.15s;
+}
+.stay-block .stay-options a:hover {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+}
+.stay-block .stay-cta {
+  display: inline-block;
+  background: var(--brand);
+  color: #fff !important;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.stay-block .stay-cta:hover { filter: brightness(1.1); }
+.stay-block .stay-disclosure {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+}
