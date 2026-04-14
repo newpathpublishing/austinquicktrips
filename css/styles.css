@@ -427,17 +427,49 @@ a:hover { color: var(--accent); }
   line-height: 1.6;
 }
 
-/* ─── TABLE OF CONTENTS ─── */
+/* ─── TABLE OF CONTENTS (compact, collapsible) ─── */
 .toc {
   background: var(--bg-warm);
   border-radius: var(--radius);
-  padding: 24px 28px;
-  margin: 28px 0;
+  padding: 0;
+  margin: 20px 0;
+  border: 1px solid var(--border);
 }
-.toc h4 { font-size: 0.95rem; color: var(--text); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-.toc ol { margin: 0; padding-left: 20px; }
-.toc li { padding: 4px 0; font-size: 0.92rem; }
-.toc a { color: var(--primary-light); font-weight: 500; }
+.toc > summary,
+.toc > h2,
+.toc > h4 {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.toc > summary::-webkit-details-marker { display: none; }
+.toc > summary::after {
+  content: "▼";
+  font-size: 0.7rem;
+  color: var(--text-light);
+  transition: transform 0.2s;
+}
+.toc[open] > summary::after { transform: rotate(180deg); }
+.toc ul, .toc ol {
+  margin: 0;
+  padding: 0 20px 14px 20px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2px 16px;
+}
+.toc li { padding: 3px 0; font-size: 0.9rem; }
+.toc a { color: var(--primary-light); font-weight: 500; text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
 
 /* ─── FAQ SECTION ─── */
 .faq { margin: 48px 0; }
