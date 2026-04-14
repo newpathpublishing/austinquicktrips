@@ -12,10 +12,18 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://austinquicktrips.com/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="Austin Quick Trips Editorial Team">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:image" content="https://austinquicktrips.com/images/austin-skyline.jpg">
+  <meta property="og:image:alt" content="Downtown Austin skyline across the Colorado River">
+  <meta property="og:site_name" content="Austin Quick Trips">
+  <meta name="twitter:title" content="Austin Quick Trips — Day Trips & Weekend Getaways from Austin, TX">
+  <meta name="twitter:description" content="Your local guide to day trips, weekend getaways, and road trips from Austin — written by Central Texans who actually live here.">
+  <meta name="twitter:image" content="https://austinquicktrips.com/images/austin-skyline.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css?v=4">
+  <link rel="stylesheet" href="/css/styles.css?v=5">
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
@@ -77,6 +85,35 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Austin Quick Trips",
+    "url": "https://austinquicktrips.com",
+    "logo": "https://austinquicktrips.com/logo.png",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "New Path Publishing LLC"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Austin, Texas and Central Texas Hill Country"
+    },
+    "sameAs": [
+      "https://goquicktrips.com"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://austinquicktrips.com/"}
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -97,7 +134,7 @@
 </nav>
 
 <!-- Hero Section -->
-<header class="hero">
+<header class="hero hero-home" aria-label="Austin skyline hero">
   <div class="hero-content">
     <div class="hero-badge">Your Local Austin Travel Guide</div>
     <h1>The Best Day Trips & Weekend Getaways from Austin, Texas</h1>
@@ -108,6 +145,21 @@
     </div>
   </div>
 </header>
+
+<!-- Quick Answer (AEO / GEO) + Byline -->
+<section class="section" style="padding: 24px 0 0 0;">
+  <div class="section-inner" style="max-width: 880px;">
+    <div class="quick-facts" aria-label="Quick answer">
+      <h2 style="font-size: 1.1rem; margin-bottom: 8px;">Quick Answer</h2>
+      <p style="margin: 0; font-size: 1.02rem; line-height: 1.6;">
+        Austin Quick Trips is a locally-written travel guide covering <strong>day trips, weekend getaways, and road trips within 1&ndash;3 hours of Austin, Texas</strong>. Our most popular destinations are Fredericksburg (78 miles, wine country), Hamilton Pool Preserve (30 miles, natural swimming hole), Enchanted Rock (87 miles, granite dome hike), Bastrop (35 min, Lost Pines), and Lockhart (45 min, BBQ capital). Every article includes real drive times, current prices, and photos of the exact location.
+      </p>
+    </div>
+    <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 10px;">
+      By the <a href="/about" style="color: var(--primary-light); text-decoration: underline;">Austin Quick Trips Editorial Team</a> &nbsp;&middot;&nbsp; Central Texas residents &nbsp;&middot;&nbsp; <strong>Updated April 2026</strong>
+    </p>
+  </div>
+</section>
 
 <!-- Category Pills -->
 <section class="section">
@@ -130,7 +182,7 @@
     <div class="card-grid">
       <!-- Card 1 -->
       <article class="card">
-        <div class="card-img card-img-austin">
+        <div class="card-img card-img-austin" role="img" aria-label="Downtown Austin skyline across the Colorado River">
           <span class="card-tag">Pillar Guide</span>
         </div>
         <div class="card-body">
@@ -146,7 +198,7 @@
 
       <!-- Card: BASTROP FEATURED -->
       <article class="card">
-        <div class="card-img card-img-nature">
+        <div class="card-img card-img-nature" role="img" aria-label="Bastrop County Courthouse, Central Texas">
           <span class="card-tag">Featured Destination</span>
         </div>
         <div class="card-body">
@@ -160,7 +212,7 @@
       </article>
       <!-- Card 2 -->
       <article class="card">
-        <div class="card-img card-img-water">
+        <div class="card-img card-img-water" role="img" aria-label="Hamilton Pool Preserve waterfall grotto">
           <span class="card-tag">Summer Essential</span>
         </div>
         <div class="card-body">
@@ -175,7 +227,7 @@
 
       <!-- Card 3 -->
       <article class="card">
-        <div class="card-img card-img-wine">
+        <div class="card-img card-img-wine" role="img" aria-label="Nimitz Museum in Fredericksburg, Texas">
           <span class="card-tag">Wine Country</span>
         </div>
         <div class="card-body">
@@ -190,7 +242,7 @@
 
       <!-- Card 4 -->
       <article class="card">
-        <div class="card-img card-img-hike">
+        <div class="card-img card-img-hike" role="img" aria-label="McKinney Falls State Park on Onion Creek">
           <span class="card-tag">Outdoors</span>
         </div>
         <div class="card-body">
@@ -205,7 +257,7 @@
 
       <!-- Card 5 -->
       <article class="card">
-        <div class="card-img card-img-weekend">
+        <div class="card-img card-img-weekend" role="img" aria-label="Historic Gruene Hall, New Braunfels">
           <span class="card-tag">Weekend Trip</span>
         </div>
         <div class="card-body">
@@ -220,7 +272,7 @@
 
       <!-- Card 6 -->
       <article class="card">
-        <div class="card-img card-img-food">
+        <div class="card-img card-img-food" role="img" aria-label="Caldwell County Courthouse in Lockhart">
           <span class="card-tag">Food Trip</span>
         </div>
         <div class="card-body">
@@ -235,7 +287,7 @@
 
       <!-- Card 7: Family Resorts -->
       <article class="card">
-        <div class="card-img" style="background: linear-gradient(135deg, #1abc9c 0%, #2980b9 50%, #1a5276 100%);">
+        <div class="card-img card-img-family" role="img" aria-label="Comal River in Landa Park, New Braunfels">
           <span class="card-tag">Family Travel</span>
         </div>
         <div class="card-body">
@@ -250,7 +302,7 @@
 
       <!-- Card 8: Romantic Getaways -->
       <article class="card">
-        <div class="card-img" style="background: linear-gradient(135deg, #c0392b 0%, #e67e22 50%, #f39c12 100%);">
+        <div class="card-img card-img-romance" role="img" aria-label="Texas bluebonnets at Wildflower Center">
           <span class="card-tag">Couples</span>
         </div>
         <div class="card-body">
@@ -265,7 +317,7 @@
 
       <!-- Card 9: Cabins & Glamping -->
       <article class="card">
-        <div class="card-img" style="background: linear-gradient(135deg, #27ae60 0%, #2c3e50 100%);">
+        <div class="card-img card-img-cabin" role="img" aria-label="Pedernales Falls State Park">
           <span class="card-tag">Unique Stays</span>
         </div>
         <div class="card-body">
@@ -280,7 +332,7 @@
 
       <!-- Card 10: Girls' Weekend -->
       <article class="card">
-        <div class="card-img" style="background: linear-gradient(135deg, #9b59b6 0%, #e91e63 50%, #ff6f00 100%);">
+        <div class="card-img card-img-girls" role="img" aria-label="San Antonio River Walk">
           <span class="card-tag">Girls' Trip</span>
         </div>
         <div class="card-body">
