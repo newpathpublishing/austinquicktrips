@@ -88,20 +88,19 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                Austin<span>QuickTrips</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="/day-trips/">Day Trips</a></li>
-                <li><a href="/weekend-getaways/">Weekend Getaways</a></li>
-                <li><a href="/hiking/">Hiking</a></li>
-                <li><a href="/swimming/">Swimming</a></li>
-                <li><a href="/road-trips/">Road Trips</a></li>
-                <li><a href="/guides/">Guides</a></li>
-            </ul>
-        </div>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Austin<span>QuickTrips</span></a>
+        <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="/day-trips/">Day Trips</a></li>
+          <li><a href="/weekend-getaways/">Weekend Getaways</a></li>
+          <li><a href="/hiking/">Hiking</a></li>
+          <li><a href="/swimming/">Swimming Holes</a></li>
+          <li><a href="/road-trips/">Road Trips</a></li>
+          <li><a href="/guides/">Travel Guides</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Breadcrumbs -->
