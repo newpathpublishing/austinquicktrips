@@ -224,12 +224,33 @@ a:hover { color: var(--accent); }
   position: relative;
   overflow: hidden;
 }
-.card-img-austin { background: linear-gradient(135deg, #1a5276 0%, #48c6ef 50%, #e67e22 100%); }
+/* Verified location photos from Wikimedia Commons — see /credits.html */
+.card-img-austin {
+  background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.35)), url('/images/austin-skyline.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card-img-wine {
+  /* Nimitz Museum, Fredericksburg */
+  background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.35)), url('/images/fredericksburg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card-img-water {
+  /* Hamilton Pool Preserve */
+  background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.35)), url('/images/hamilton-pool.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card-img-food {
+  /* Caldwell County Courthouse, Lockhart */
+  background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.35)), url('/images/lockhart-courthouse.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* Unverified categories \u2014 keep gradients until we have real photos */
 .card-img-nature { background: linear-gradient(135deg, #134e5e 0%, #71b280 100%); }
-.card-img-wine { background: linear-gradient(135deg, #722f37 0%, #c0392b 50%, #e67e22 100%); }
-.card-img-water { background: linear-gradient(135deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%); }
 .card-img-hike { background: linear-gradient(135deg, #3a6186 0%, #89253e 100%); }
-.card-img-food { background: linear-gradient(135deg, #e67e22 0%, #c0392b 100%); }
 .card-img-weekend { background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #fda085 100%); }
 .card-tag {
   position: absolute;

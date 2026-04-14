@@ -1,5 +1,7 @@
-node_modules/
-.DS_Store
+# Unused image candidates (sandbox couldn't delete them)
+images/*.bak
+images/*-unused*
+# Deploy artifacts
 *.zip
+.DS_Store
 .wrangler/
-.env
