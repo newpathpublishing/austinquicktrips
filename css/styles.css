@@ -491,3 +491,38 @@ a:hover { color: var(--accent); }
 .mb-2 { margin-bottom: 16px; }
 .mb-4 { margin-bottom: 32px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* Photo hero — real location images with legibility overlay */
+.hero-photo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-photo::before {
+  background: linear-gradient(180deg, rgba(10,20,40,0.35) 0%, rgba(10,20,40,0.70) 100%) !important;
+  opacity: 1 !important;
+}
+
+/* Inline location figures within articles */
+.location-figure {
+  margin: 32px 0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  background: #000;
+}
+.location-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+}
+.location-figure figcaption {
+  background: #0e2f44;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.85rem;
+  padding: 10px 16px;
+  line-height: 1.5;
+}
+.location-figure figcaption a { color: #8ec9e8; text-decoration: underline; }
