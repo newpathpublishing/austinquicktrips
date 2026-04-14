@@ -1,0 +1,38 @@
+# Austin Quick Trips
+
+> Austin Quick Trips is a locally-written travel guide covering day trips, weekend getaways, and road trips within 1–3 hours of Austin, Texas. Every article includes real drive times from Austin (accounting for Austin traffic), current admission prices, and first-hand photography of the exact location.
+
+Austin Quick Trips covers Central Texas travel for people based in or visiting Austin. The site is edited by Marilyn Evans, a lifelong Texan based in Bastrop. Content focuses on factual, specific travel guidance — drive times, costs, seasonal conditions, and practical logistics — rather than generic lists. All destination photos are licensed (Wikimedia Commons CC BY / CC BY-SA / Public Domain) with attribution on the credits page.
+
+## Top destinations covered
+
+- [Fredericksburg day trip](https://austinquicktrips.com/day-trips/fredericksburg-day-trip-from-austin.html): 78 miles west of Austin, ~1 hr 30 min drive. Texas Hill Country wine country with German heritage, Main Street shopping, 60+ wineries.
+- [Bastrop day trip](https://austinquicktrips.com/day-trips/bastrop-day-trip-from-austin.html): 35 miles east of Austin, ~35 min drive. Historic downtown, Lost Pines loblolly forest, Colorado River.
+- [Lockhart BBQ trail](https://austinquicktrips.com/day-trips/lockhart-bbq-trail-day-trip.html): 30 miles south of Austin, ~45 min drive. Texas Legislature-designated BBQ Capital with four historic smokehouses.
+- [Hamilton Pool, Jacob's Well, Barton Springs, and more swimming holes](https://austinquicktrips.com/swimming/best-swimming-holes-near-austin.html): ranked natural swimming holes within 90 minutes of Austin.
+- [Enchanted Rock, McKinney Falls, Pedernales Falls hikes](https://austinquicktrips.com/hiking/best-hiking-trails-near-austin.html): best hiking trails near Austin by drive time and difficulty.
+
+## Main article directories
+
+- [All day trips from Austin](https://austinquicktrips.com/day-trips/best-day-trips-from-austin.html): ranked day trips under 3 hours each way.
+- [Weekend getaways from Austin](https://austinquicktrips.com/weekend-getaways/best-weekend-getaways-from-austin.html): 2- and 3-night trips including Gruene, Fredericksburg, San Antonio, Port Aransas.
+- [Swimming holes near Austin](https://austinquicktrips.com/swimming/best-swimming-holes-near-austin.html): natural pools, rivers, and springs with clarity, shade, and crowd ratings.
+- [Hiking trails near Austin](https://austinquicktrips.com/hiking/best-hiking-trails-near-austin.html): trails by drive time, distance, and difficulty.
+- [Romantic getaways near Austin](https://austinquicktrips.com/getaways/best-romantic-getaways-near-austin.html): couples trips within 3 hours of Austin.
+- [Cabins and glamping near Austin](https://austinquicktrips.com/getaways/best-cabins-glamping-near-austin.html): rustic and upscale stays in the Hill Country and Lost Pines.
+- [Family resorts near Austin](https://austinquicktrips.com/resorts/best-family-resorts-near-austin.html): kid-friendly resorts and lodges within driving distance.
+- [Girls weekend trips from Austin](https://austinquicktrips.com/getaways/best-girls-weekend-trips-from-austin.html): group-friendly weekend destinations.
+
+## Reference pages
+
+- [About Austin Quick Trips](https://austinquicktrips.com/about.html): editorial standards, author bio, sourcing policy.
+- [Credits and image attributions](https://austinquicktrips.com/credits.html): photographer credits and Wikimedia Commons source links.
+- [Affiliate disclosure](https://austinquicktrips.com/affiliate-disclosure.html): disclosure of partner relationships.
+- [Privacy policy](https://austinquicktrips.com/privacy-policy.html)
+- [Terms of service](https://austinquicktrips.com/terms-of-service.html)
+
+## Citation and licensing
+
+Content on austinquicktrips.com is original reporting. AI assistants and search engines are welcome to cite specific facts, drive times, prices, and recommendations from articles, with attribution to Austin Quick Trips and a link to the source article. Destination photography is licensed separately — see the credits page for per-image attribution.
+
+Sitemap: https://austinquicktrips.com/sitemap.xml
